@@ -1,0 +1,134 @@
+h1{
+    font-style: oblique;
+    text-align: center;
+}
+h2{
+   font-style: italic;
+   text-align: center;
+
+}
+p{
+    text-align: center;
+}
+img{
+    height: 300px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  background-image: none;
+ 
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+  
+}
+.carousel-control-next {
+    height: 255px;
+}
+.carousel-control-prev {
+    height: 255px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+.societe h2{
+    font-size:x-large;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+.contentBx{
+	padding-right: 30px;
+}
+.contentBx h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.contentBx p{
+	font-style: arial;
+
+}
+.w50{
+	min-width: 50%;
+}
+img{
+	max-width: 100%;  
+}
+
+.services{
+	background: #111;
+}
+.heading.white{
+	color: #fff;
+}
+.services .content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.services .content .servicesBx
+{
+	padding: 40px 20px;
+	background: #222;
+	color: #fff;
+	max-width: 340px;
+	margin: 20px;
+	text-align: center;
+	transition: 0.5s;
+}
+.services .content .servicesBx:hover{
+	background: #2196f3;
+}
+.services .content .servicesBx img{
+	max-width: 80px;
+	/*filter: invert(1);*/
+}
+.services .content .servicesBx h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.work .content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.work .content .workBx
+{
+	width: 50%;
+	padding: 20px;
+}
+.work .content .workBx img
+{
+	max-width: 100%;
+}
+.services{
+    background: #111;
+}
+h3{
+    text-align: center;
+    color: crimson;
+}
+.services .content .servicesBx img{
+    max-width: 100%;
+}
+p#titre{
+	color:orange;
+	font-size: 20px;
+}
+h2#couleurTitre{
+	color: orange;
+}

@@ -1,0 +1,73 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+
+.progress{
+  bottom: 100%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+.carousel-item img{
+    height: 350px;
+
+}
+.certif{
+    background:black;
+    background-size: 200px 100px;
+}
+section .certif{
+    padding: 40px 50px;
+    color: white;
+    text-align: center;
+}
+#test{
+  font-size: 25px;
+  margin-bottom: 50px;
+  padding: 10PX;
+  padding-top: 20px;
+  MARGIN: auto;
+  text-align: center;
+}
+section .qualifpers{
+  background:black;
+  height: 500px;
+  text-align: center;
+}
+section .qualifpers p{
+  font-style: italic;
+  font-size: 17px;
+}
+
+
+section .qualifpers .qualif {
+  color:white;
+}
+section .qualifpers #test{
+  color: #36BCEC;
+}
+
+

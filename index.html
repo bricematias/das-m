@@ -1,1 +1,141 @@
-<h1>toto</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="accueil.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Accueil</title>
+</head>
+<body>
+   <header>
+       <a href="" class="logo">DAS-m</a>
+       <ul>
+           <li><a href="" class="active">Accueil</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="produits.html">Produits</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <!-- <li><a href="index.php">Avis</a></li> -->
+           
+       </ul>
+   </header>
+
+   <section class="banner">
+       <div class="text">Recevoir du public c'est bien ! <br /> Le protéger c'est MIEUX<BR>
+    Bienvenue chez DAS-M <br/>
+    </section>
+
+    
+   
+    <section class="qui">
+        
+        <div class="titres">
+            <h2>Présentation</h2> 
+        </div>
+        <div class="societe">
+			<div class="societes">
+				<center>
+					<h3>Qui somme nous?</h3>
+				</center>
+				<p>
+                    Dacosta Sécurité est une société spécialisée depuis 1948  dans <strong>la sécurité des biens et des personnes.</strong> L’ensemble des produits et des services proposé sont choisis  qualitativement et totalement conformes aux normes CE et NF.
+
+                    Nous vendons et installons de tous les organes de sécurité incendie (Extincteur, RIA, Désenfumage, Eclairage de sécurité, Alarme incendie, Détecteur de fumée, Etc.)
+                    <strong> Nous gérons la maintenance et la sécurité, la mise en conformité de votre habitation ou établissement.</strong>
+                    
+                    La sécurité et la protection des vies humaines et de l’outil de production face aux risques d’incendie sont une préoccupation majeure et croissante, tant dans notre vie personnelle que sur notre lieu de travail.
+                    
+				</p>
+			</div>
+			<div class="carte">
+				<div id="map">
+                    <h3>Les sites d'activités</h3>
+					<img class="map" src="img/map.jpg">
+				</div>
+			</div>
+		</div>
+        <div class="hr"></div>
+	</section>
+    <section class="comment">
+        <div class="titre">
+            <h2>Deux entreprises en une seule</h2> 
+        </div>
+		<div class="content">
+			<div class="Dacosta">
+				<center>
+					<h3>Ch. Dacosta.SAS</h3>
+				</center>
+				<p>
+                    Ch. DACOSTA.sas – Caractéristiques de l’entreprise
+                    PDG de l’entreprise : Charles DACOSTA
+                    Statut de l’entreprise : SAS
+                    Siège social et Direction Sud situés à ANGLET dans les Pyrénées Atlantiques (64).<br />
+                    L’entreprise est spécialisée dans l’installation des moyens de lutte contre les incendies des bâtiments.
+                    Sont implantés au siège social / Directeur – Responsable commercial – Responsable technique – 
+                    Responsable Qualité – Bureau d’étude Dessinateur – Service administratif (secrétariat) 
+                  
+				</p></div>
+			
+                <div class="dasm">
+                    <h3>DAS-m SARL</h3>
+					<p>
+                        L’entreprise est spécialisée dans l’installation des différents systèmes assurant la détection d’un incendie 
+                        et la mise en sécurité d’un bâtiment.Ainsi que la présence d’un intrusion dans vos locaux.
+                        <br /><strong>Gérant de l’entreprise : Frank DACOSTA.
+                        Statut de l’entreprise : SARL</strong><br />
+                        Siège social et direction Sud situés à ANGLET dans les Pyrénées Atlantiques (64).
+                        Sont implantés au siège social – directeur – Responsable commercial – Responsable technique – 
+                        Responsable Qualité – Bureau d’étude / dessinateur – Service administratif (secrétariat)
+                        L’entreprise comprend aussi 6 agences
+                        Anglet
+                        Bordeaux
+                        Rennes
+                        Rosny/Seine
+                        Toulon
+                        Toulouse
+                    </p>
+				</div>
+			</div>
+	</section>
+ 
+    <section class="arbre">
+        <div class="titreorg">
+            <h2>Organigramme</h2> 
+        </div>
+		<div class="organigramme">
+			<img src="img/organigramme.jpg" class="orga">
+			</div>
+			
+		</div>
+	</section>
+      
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2O21 Matias Brice. All Right Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+        {
+            "content":"http://schema.org",
+            "@type":"LocalBusiness",
+            "adress":{
+                "@type":"PostalAdress",
+                "adressLocality":"Portet-sur-garonne",
+                "adressRegion": "France,Midy-Pyrénées",
+                "streetAdress":"42 Avenue des palanques "},
+            "description": "Entreprise de sécurité incendie mais aussi dans la sécurité contre les intrusions",
+            "name":"Das-m",
+            "Téléphone": "06.75.25.18.59",
+        }
+    </script>
+
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });</script>
+</body>
+</html>

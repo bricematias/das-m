@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+h2{
+    text-align: center;
+}
+H3{
+    text-align: center;
+}
+
+.heading h2{
+	font-weight: 600;
+	font-size: 50px;
+    background-color: black;
+    color: azure;
+    font-style: italic;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+    background-color: white;
+    color: azure;
+    width: 100%;
+}
+
+
+.contentBx p{
+	font-style: italic;
+
+}
+
+.societe{
+	display: flex;
+	justify-content: space-between;
+}
+.societes{
+	padding-right: 30px;
+}
+.societes h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.societes p{
+	font-style:italic;
+    text-align: center;
+
+}
+.carte{
+	min-width: 46%;
+    
+}
+img.map {
+	width: 500px;
+	height: 350px;
+    margin-left: 10%;
+   }
+.qui{
+    background-color: black;
+    color: azure;   
+    padding: 25px 5px; 
+    
+}
+.carte h3{
+    text-align:center;
+}
+.titres{
+top: auto;
+}
+
+.organigramme{
+    text-align: center;
+}
+
+.qui{
+    color: white;
+}
+.comment{
+    padding: auto;
+    margin: auto;
+}
+.comment .content p,
+.comment .content h3{
+    color: black;
+    background:white;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+section.arbre
+{
+  background: black;
+}
+section.arbre h2{
+    color:thistle;
+}
+img.orga{
+    height: 500px;
+}
